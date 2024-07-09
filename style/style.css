@@ -381,6 +381,7 @@
     height: 460px;
     margin: 0 auto;
     border: 2px solid red;
+    margin-bottom: 150px;
 }
 
 
@@ -554,4 +555,85 @@
     font-size: 16px;
     font-weight: 700;
     margin-left: 40px;
+}
+
+
+
+
+
+/* support section style starts here  */
+
+.support-section-main-container{
+    margin: 0 auto;
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background-image: url(../B10A1-Challenge-Begins/assets/313.png);
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+
+.support-section-container{
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+}
+
+
+.support-section-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+
+.support-section-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.support-section-container input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.support-section-container button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.support-section-button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
