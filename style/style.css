@@ -380,7 +380,6 @@
     width: 1140px;
     height: 460px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 150px;
 }
 
@@ -388,7 +387,6 @@
 .target-section-container-parent{
     width: 1140px;
     height: 299px;
-    border: 2px solid peru;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
@@ -399,7 +397,6 @@
 .target-section-header{
     width: 852px;
     height: 113px;
-    border: 2px solid black;
     margin: 0 auto;
     text-align: center;
 }
@@ -563,7 +560,7 @@
 
 /* support section style starts here  */
 
-.support-section-main-container{
+#support-section-main-container{
     margin: 0 auto;
     width: 1140px;
     height: 313px;
@@ -652,9 +649,8 @@
 
 .footer-container{
     width: 1440px;
-    height: 100px;
+    height: 50px;
     margin: 0 auto;
-    border: 2px solid rebeccapurple;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
     padding: 32px 150px 32px 150px;
@@ -667,6 +663,4 @@
 
 .footer-column{
     gap: 24px;
-    border: 2px solid red;
-
 }
