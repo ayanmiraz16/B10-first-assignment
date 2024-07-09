@@ -570,7 +570,8 @@
     border-radius: 16px;
     background-image: url(../B10A1-Challenge-Begins/assets/313.png);
     background-repeat: no-repeat;
-    border: 2px solid black;
+    margin-bottom: 80px;
+    /* border: 2px solid black; */
 }
 
 
@@ -580,6 +581,9 @@
     width: 1044px;
     height: 185px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -636,4 +640,33 @@
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+
+
+
+/* footer style starts here  */
+
+
+
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.footer-column{
+    gap: 24px;
+    border: 2px solid red;
+
 }
