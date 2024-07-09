@@ -383,6 +383,18 @@
     border: 2px solid red;
 }
 
+
+.target-section-container-parent{
+    width: 1140px;
+    height: 299px;
+    border: 2px solid peru;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
 .target-section-header{
     width: 852px;
     height: 113px;
@@ -409,9 +421,137 @@
 
 }
 
-.target-section-container-parent{
-    width: 1140px;
+
+
+
+
+.target-section-child-1-image{
+    width: 56px;
+    height: 56px;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+}
+
+
+.target-section-child-1{
+    width: 364px;
     height: 299px;
-    border: 2px solid peru;
-    margin-top: 48px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+
+
+.target-section-child-1 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-left: 40px;
+}
+
+.target-section-child-1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.target-section-child-1 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.target-section-child-2{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+
+.target-section-child-2-image{
+    width: 56px;
+    height: 56px;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+}
+
+.target-section-child-2 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-left: 40px;
+}
+
+.target-section-child-2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.target-section-child-2 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+
+
+.target-section-child-3{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+.target-section-child-3-image{
+    width: 56px;
+    height: 56px;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+}
+
+
+.target-section-child-3 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.target-section-child-3 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    /* margin-bottom: 24px; */
+}
+
+.target-section-child-3 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
 }
