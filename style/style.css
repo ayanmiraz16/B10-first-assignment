@@ -65,7 +65,7 @@
 }
 
 
-/* largest-section-container style starts here  */
+/* combined-section-container style starts here  */
 
 
 .combined-section-container{
@@ -75,14 +75,16 @@
     margin-top: 74px;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
 }
 
 
 .combined-sub-section-container{
     width: 946px;
-    height: 1233px;
+    height: 1235px;
     margin: 80px 97px;
-    background-color: #ffffff;
+    /* border: 2px solid red; */
+    /* margin-top: 160px; */
 }
 
 
@@ -180,7 +182,15 @@
 
 
 
+
+
+
 /* third-section- style starts here  */
+
+
+
+
+
 
 .third-section-main-container{
     width: 946px;
@@ -428,7 +438,9 @@
     height: 56px;
     /* margin-top: 40px; */
     margin-left: 40px;
+    margin-top: 40px;
 }
+
 
 
 .target-section-child-1{
@@ -481,7 +493,9 @@
     height: 56px;
     /* margin-top: 40px; */
     margin-left: 40px;
+    margin-top: 40px;
 }
+
 
 .target-section-child-2 h3{
     color: rgb(13, 19, 33);
@@ -517,16 +531,19 @@
     width: 364px;
     height: 299px;
     border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
+    background: rgba(0, 76, 232, 0.05);
 }
 
 
-.target-section-child-3-image{
+.target-section-child-3-image img{
     width: 56px;
     height: 56px;
-    /* margin-top: 40px; */
     margin-left: 40px;
+    margin-top: 40px;
+    /* margin-top: 40px; */
+
 }
+
 
 
 .target-section-child-3 h3{
@@ -534,7 +551,7 @@
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .target-section-child-3 p{
@@ -544,6 +561,9 @@
     font-weight: 400;
     margin-top: 8px;
     /* margin-bottom: 24px; */
+    margin-right: 0;
+    margin-left: 40px;
+    margin-bottom: 24px;
 }
 
 .target-section-child-3 a{
@@ -618,6 +638,7 @@
     text-align: center;
     text-align: left;
     padding-left: 15px;
+    z-index: 1111;
 }
 
 .support-section-container button{
@@ -633,11 +654,12 @@
     cursor: pointer;
 }
 
-.support-section-button{
+#support-section-button{
     display: flex;
     justify-content: center;
     gap: 16px;
 }
+
 
 
 
@@ -649,7 +671,7 @@
 
 .footer-container{
     width: 1440px;
-    height: 50px;
+    height: 100px;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
@@ -661,6 +683,17 @@
 }
 
 
-.footer-column{
+
+
+.footer-column p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.footer-column-img{
+    display: flex;
     gap: 24px;
 }
