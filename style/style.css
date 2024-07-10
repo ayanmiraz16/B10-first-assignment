@@ -601,6 +601,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -609,8 +610,9 @@
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 16px;
     margin-top: 64px;
+    margin-bottom: 16px;
+
 }
 
 
@@ -620,6 +622,9 @@
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    margin: 16 0 24 0;
+    margin-top: 16 px;
+    padding: 0px; 
 }
 
 .support-section-container input{
@@ -639,6 +644,7 @@
     text-align: left;
     padding-left: 15px;
     z-index: 1111;
+    margin-top: 24px;
 }
 
 .support-section-container button{
@@ -652,6 +658,7 @@
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 24px;
 }
 
 #support-section-button{
